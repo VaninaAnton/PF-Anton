@@ -31,11 +31,11 @@
     justify-content: center;
  }
  .pie{
-    background-image: url(/imag/backgroud.webp);
+    background-image: url(imag/backgroud.webp);
     justify-content: center;  
 }
 .pie{
-    background-image: url(/imag/backgroud.webp);
+    background-image: url(imag/backgroud.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
