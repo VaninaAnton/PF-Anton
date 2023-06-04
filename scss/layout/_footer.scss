@@ -1,0 +1,40 @@
+.pie{
+    background-image: url(imag/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    }
+    .contacto{
+        margin-top: 200px;
+    }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.display-3{
+  font-size: medium;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.display-4{
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.mb-3{
+    font-size: medium;
+    font-weight: 500;  
+}
+.mapa{
+    width:80%;
+    height:50%;
+    border:0;
+    margin-left: 30px;
+    margin-top: 100px;
+}

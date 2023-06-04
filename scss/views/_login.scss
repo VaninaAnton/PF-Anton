@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.inicio{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.registro{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
