@@ -28,9 +28,9 @@
     font-weight: 500;
     display: flex;
     flex-direction: row;
-    justify-content: center;  
-}
-.pie{
+    justify-content: center;
+ }
+ .pie{
     background-image: url(imag/backgroud.jpg);
     background-repeat: no-repeat;
     background-size: cover;
