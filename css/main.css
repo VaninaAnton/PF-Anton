@@ -15,7 +15,7 @@
 }
 
 .contacto {
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 .row {
@@ -50,7 +50,7 @@
   height: 50%;
   border: 0;
   margin-left: 30px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .cabecera {
@@ -79,7 +79,7 @@
 }
 
 /* Views */
-.display-2 {
+slogan .display-2 {
   font-size: 30px;
   line-height: 2.5;
   font-weight: 500;
@@ -88,7 +88,7 @@
   justify-content: center;
 }
 
-.display-5 {
+container-fluid .display-5 {
   font-size: 40px;
   font-weight: 400;
   color: #008000;
@@ -98,25 +98,22 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-.display-6 {
+container-fluid .display-6 {
   font-size: 20px;
   font-weight: 400;
   color: #008000;
 }
-
-.display-7 {
+container-fluid .display-7 {
   font-size: 18px;
   font-weight: 400;
   color: gray;
 }
-
-.lead {
+container-fluid .lead {
   font-size: 15px;
   font-weight: 400;
 }
 
-.display-5 {
+container-fluid .display-5 {
   font-size: 40px;
   font-weight: 400;
   color: #008000;
@@ -126,32 +123,27 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-.display-6 {
+container-fluid .display-6 {
   font-size: 20px;
   font-weight: 400;
   color: #008000;
 }
-
-.display-7 {
+container-fluid .display-7 {
   font-size: 18px;
   font-weight: 400;
   color: gray;
 }
-
-.display-8 {
+container-fluid .display-8 {
   font-size: 16px;
   font-weight: 450;
   color: black;
 }
-
-.boton {
+container-fluid .boton {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-
-.piezas {
+container-fluid .piezas {
   margin-top: 30px;
 }
 
@@ -162,21 +154,21 @@
   margin-bottom: 30px;
 }
 
+.display-8 {
+  font-size: 16px;
+  font-weight: 450;
+  color: black;
+}
+
 .presupuesto {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-}
-
-.boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 .row {
@@ -199,4 +191,4 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}/*# sourceMappingURL=main.css.map */
+} /* Mixin *//*# sourceMappingURL=main.css.map */

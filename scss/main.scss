@@ -15,3 +15,10 @@
 @import "views/budget";
 @import "views/login";
 
+/* Mixin */
+@mixin boton($color, $margin-top){
+    color: $color-primary;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

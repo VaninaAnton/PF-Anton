@@ -12,7 +12,5 @@
     padding-right: 90px;
 }
 .boton{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    @include boton($color, $margin-top)
 }

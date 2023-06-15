@@ -4,9 +4,14 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+.display-8{
+    font-size: 16px;
+    font-weight: 450;
+    color: $color-secondary;
+}
 .presupuesto{
-    margin-left: 400px;
-    margin-right: 400px ;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .row{
     display: flex;
@@ -14,7 +19,5 @@
     align-items: stretch;
 }
 .boton{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    @include boton($color, $margin-top)
 }

@@ -1,33 +1,33 @@
-.display-5{
-    font-size: 40px;
-    font-weight: 400;
-    color: $color-primary;
-    text-shadow:2px 2px 3px $color-tertary;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.display-6{
-    font-size: 20px;
-    font-weight: 400;
-    color:$color-primary;
-}
-.display-7{
-    font-size: 18px;
-    font-weight: 400;
-    color:$color-tertary;
-}
-.display-8{
-    font-size: 16px;
-    font-weight: 450;
-    color: $color-secondary;
-}
-.boton{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.piezas{
-  margin-top: 30px;
+container-fluid{
+    .display-5{
+        font-size: 40px;
+        font-weight: 400;
+        color: $color-primary;
+        text-shadow:2px 2px 3px $color-tertary;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .display-6{
+        font-size: 20px;
+        font-weight: 400;
+        color:$color-primary;
+    }
+    .display-7{
+        font-size: 18px;
+        font-weight: 400;
+        color:$color-tertary;
+    }
+    .display-8{
+        font-size: 16px;
+        font-weight: 450;
+        color: $color-secondary;
+    }
+    .boton{
+        @include boton($color, $margin-top)
+    }
+    .piezas{
+      margin-top: 30px;
+    }    
 }
